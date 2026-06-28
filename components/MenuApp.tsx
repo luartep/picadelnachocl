@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CartProvider } from "@/lib/cart-context";
 import type { Product } from "@/lib/types";
 import { menuData } from "@/lib/menu-data";
+import { useMenuData } from "@/lib/use-menu-data";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { CategoryNav } from "@/components/CategoryNav";
@@ -15,31 +16,30 @@ export function MenuApp() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(
     null
   );
+  const { categories, branches, products } = useMenuData();
 
-  const sortedCategories = [...menuData.categories].sort(
+  const sortedCategories = [...categories].sort(
     (a, b) => a.sortOrder - b.sortOrder
   );
 
   function productsForCategory(categoryId: string): Product[] {
-    return menuData.products
+    return products
       .filter((p) => p.category === categoryId && p.active)
       .sort((a, b) => a.sortOrder - b.sortOrder);
   }
 
   function handleSelectProduct(product: Product) {
-    if (product.modifierGroups.length === 0) {
-      // Sin modificadores: igual abrimos el modal para permitir cantidad/nota,
-      // pero podría agregarse directo. Mantenemos modal por consistencia.
-      setSelectedProduct(product);
-    } else {
-      setSelectedProduct(product);
-    }
+    setSelectedProduct(product);
   }
+
+  // Los datos de marca (nombre, whatsapp, etc.) siempre vienen del fallback local:
+  // no dependen de la base de datos, asi que nunca quedan en blanco.
+  const meta = menuData.meta;
 
   return (
     <CartProvider>
-      <Navbar brand={menuData.meta.brand} />
-      <Hero subtitle={menuData.meta.subtitle} hours={menuData.meta.hours} />
+      <Navbar brand={meta.brand} />
+      <Hero subtitle={meta.subtitle} hours={meta.hours} />
       <CategoryNav categories={sortedCategories} />
 
       <main className="flex-1">
@@ -56,16 +56,16 @@ export function MenuApp() {
       <footer className="px-4 py-8 border-t border-white/5 mt-6">
         <div className="max-w-5xl mx-auto text-center space-y-2">
           <p className="font-display text-xl text-truck-yellow">
-            {menuData.meta.brand}
+            {meta.brand}
           </p>
           <p className="text-truck-cream-dim text-sm">
-            {menuData.meta.subtitle} · {menuData.meta.hours}
+            {meta.subtitle} · {meta.hours}
           </p>
           <p className="text-truck-cream-dim text-xs">
-            Síguenos en Instagram: @{menuData.meta.instagram}
+            Síguenos en Instagram: @{meta.instagram}
           </p>
           <p className="text-truck-cream-dim text-xs">
-            Aceptamos: {menuData.meta.paymentMethods.join(" · ")}
+            Aceptamos: {meta.paymentMethods.join(" · ")}
           </p>
         </div>
       </footer>
@@ -78,9 +78,9 @@ export function MenuApp() {
       )}
 
       <CartDrawer
-        brand={menuData.meta.brand}
-        whatsappNumber={menuData.meta.whatsapp}
-        branches={menuData.branches}
+        brand={meta.brand}
+        whatsappNumber={meta.whatsapp}
+        branches={branches}
       />
     </CartProvider>
   );

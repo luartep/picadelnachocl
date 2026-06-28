@@ -1,5 +1,5 @@
 // Datos reales extraídos de la carta de La Picá Del Nacho (Food Truck)
-// Generado a partir del PDF de carta. NO modificar a mano: pasará a venir desde la DB.
+// Generado a partir del PDF de carta. NO modificar a mano una vez conectada la DB.
 
 import type { MenuData } from "./types";
 
