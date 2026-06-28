@@ -1,0 +1,2813 @@
+{
+  "meta": {
+    "brand": "La Picá Del Nacho",
+    "subtitle": "Food Truck · Sandwichería",
+    "whatsapp": "56973036376",
+    "instagram": "lapicadelnacho_foodtruck",
+    "hours": "Abierto 24/7",
+    "paymentMethods": [
+      "Webpay Plus",
+      "Visa",
+      "Mastercard",
+      "Diners Club",
+      "Redcompra"
+    ]
+  },
+  "categories": [
+    {
+      "id": "completos-normal",
+      "label": "Completos Normal",
+      "sortOrder": 1
+    },
+    {
+      "id": "completos-xl",
+      "label": "Completos XL",
+      "sortOrder": 2
+    },
+    {
+      "id": "sandwich-eleccion",
+      "label": "Sándwich Carne a Elección",
+      "sortOrder": 3
+    },
+    {
+      "id": "sandwich-casa",
+      "label": "Sándwich De la Casa",
+      "sortOrder": 4
+    },
+    {
+      "id": "hamburguesas",
+      "label": "Hamburguesa Casera",
+      "sortOrder": 5
+    },
+    {
+      "id": "papas-crema",
+      "label": "Papas a la Crema",
+      "sortOrder": 6
+    },
+    {
+      "id": "papas-cheddar",
+      "label": "Papas Cheddar",
+      "sortOrder": 7
+    },
+    {
+      "id": "papas-simples",
+      "label": "Papas Fritas Naturales",
+      "sortOrder": 8
+    },
+    {
+      "id": "papas-mechadas",
+      "label": "Papas Mechadas",
+      "sortOrder": 9
+    },
+    {
+      "id": "salchipapas",
+      "label": "Salchipapas",
+      "sortOrder": 10
+    },
+    {
+      "id": "pichanga",
+      "label": "Pichanga",
+      "sortOrder": 11
+    },
+    {
+      "id": "chorrillana",
+      "label": "Chorrillana",
+      "sortOrder": 12
+    },
+    {
+      "id": "bebestibles",
+      "label": "Bebestibles",
+      "sortOrder": 13
+    },
+    {
+      "id": "promociones",
+      "label": "Promociones",
+      "sortOrder": 14
+    }
+  ],
+  "branches": [
+    {
+      "id": "sucursal-1",
+      "name": "La Picá Del Nacho - Food Truck",
+      "active": true
+    }
+  ],
+  "agregadosExtras": [
+    {
+      "name": "Palta",
+      "price": 1000
+    },
+    {
+      "name": "Tomate",
+      "price": 1000
+    },
+    {
+      "name": "Choclo",
+      "price": 1000
+    },
+    {
+      "name": "Chucrut",
+      "price": 1000
+    },
+    {
+      "name": "Queso",
+      "price": 1000
+    },
+    {
+      "name": "Aceituna",
+      "price": 1000
+    },
+    {
+      "name": "Cebolla Caramelizada",
+      "price": 1000
+    },
+    {
+      "name": "Huevo Cocido",
+      "price": 1000
+    },
+    {
+      "name": "Huevo Revuelto",
+      "price": 1000
+    },
+    {
+      "name": "Poroto Verde",
+      "price": 1000
+    },
+    {
+      "name": "Pepinillo",
+      "price": 1000
+    },
+    {
+      "name": "Huevo Frito",
+      "price": 1000
+    },
+    {
+      "name": "Ají Verde",
+      "price": 1000
+    },
+    {
+      "name": "Lechuga",
+      "price": 1000
+    },
+    {
+      "name": "Pickle",
+      "price": 1000
+    },
+    {
+      "name": "Vienesa",
+      "price": 1000
+    },
+    {
+      "name": "Tocino Ahumado",
+      "price": 1500
+    },
+    {
+      "name": "Salsa Cheddar",
+      "price": 1500
+    },
+    {
+      "name": "Mechada de Vacuno",
+      "price": 2000
+    },
+    {
+      "name": "Plateada Ahumada",
+      "price": 2000
+    },
+    {
+      "name": "Churrasco",
+      "price": 2000
+    },
+    {
+      "name": "Ave",
+      "price": 2000
+    }
+  ],
+  "products": [
+    {
+      "id": "comp-n-001",
+      "name": "Hot Dog (R. Abuelo) - Normal",
+      "description": "Vienesa - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 2000,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "comp-n-002",
+      "name": "Hot Dog (Pacel) - Normal",
+      "description": "Vienesa - Mayonesa casera. Vienesa Pacel.",
+      "price": 2000,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "comp-n-003",
+      "name": "Hot Dog (Llanquihue) - Normal",
+      "description": "Vienesa - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 2300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "comp-n-004",
+      "name": "Italiano (R. Abuelo) - Normal",
+      "description": "Palta - Tomate - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 2700,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "comp-n-005",
+      "name": "Italiano (Pacel) - Normal",
+      "description": "Palta - Tomate - Mayonesa casera. Vienesa Pacel.",
+      "price": 2900,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 5,
+      "active": true
+    },
+    {
+      "id": "comp-n-006",
+      "name": "Italiano (Llanquihue) - Normal",
+      "description": "Palta - Tomate - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 6,
+      "active": true
+    },
+    {
+      "id": "comp-n-007",
+      "name": "Italiano (Carne) - Normal",
+      "description": "Palta - Tomate - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 7,
+      "active": true
+    },
+    {
+      "id": "comp-n-008",
+      "name": "Alemán (R. Abuelo) - Normal",
+      "description": "Chucrut - Tomate - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 2700,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 8,
+      "active": true
+    },
+    {
+      "id": "comp-n-009",
+      "name": "Alemán (Pacel) - Normal",
+      "description": "Chucrut - Tomate - Mayonesa casera. Vienesa Pacel.",
+      "price": 2900,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 9,
+      "active": true
+    },
+    {
+      "id": "comp-n-010",
+      "name": "Alemán (Llanquihue) - Normal",
+      "description": "Chucrut - Tomate - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 10,
+      "active": true
+    },
+    {
+      "id": "comp-n-011",
+      "name": "Alemán (Carne) - Normal",
+      "description": "Chucrut - Tomate - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 11,
+      "active": true
+    },
+    {
+      "id": "comp-n-012",
+      "name": "Brasileño (R. Abuelo) - Normal",
+      "description": "Palta - Choclo - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 2700,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 12,
+      "active": true
+    },
+    {
+      "id": "comp-n-013",
+      "name": "Brasileño (Pacel) - Normal",
+      "description": "Palta - Choclo - Mayonesa casera. Vienesa Pacel.",
+      "price": 2900,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 13,
+      "active": true
+    },
+    {
+      "id": "comp-n-014",
+      "name": "Brasileño (Llanquihue) - Normal",
+      "description": "Palta - Choclo - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 14,
+      "active": true
+    },
+    {
+      "id": "comp-n-015",
+      "name": "Brasileño (Carne) - Normal",
+      "description": "Palta - Choclo - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 15,
+      "active": true
+    },
+    {
+      "id": "comp-n-016",
+      "name": "Barros Luco (R. Abuelo) - Normal",
+      "description": "Base - Queso fundido - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 2700,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 16,
+      "active": true
+    },
+    {
+      "id": "comp-n-017",
+      "name": "Barros Luco (Pacel) - Normal",
+      "description": "Base - Queso fundido - Mayonesa casera. Vienesa Pacel.",
+      "price": 2900,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 17,
+      "active": true
+    },
+    {
+      "id": "comp-n-018",
+      "name": "Barros Luco (Llanquihue) - Normal",
+      "description": "Base - Queso fundido - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 18,
+      "active": true
+    },
+    {
+      "id": "comp-n-019",
+      "name": "Barros Luco (Carne) - Normal",
+      "description": "Base - Queso fundido - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 19,
+      "active": true
+    },
+    {
+      "id": "comp-n-020",
+      "name": "Español (R. Abuelo) - Normal",
+      "description": "Queso - Choclo - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3200,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 20,
+      "active": true
+    },
+    {
+      "id": "comp-n-021",
+      "name": "Español (Pacel) - Normal",
+      "description": "Queso - Choclo - Mayonesa casera. Vienesa Pacel.",
+      "price": 3400,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 21,
+      "active": true
+    },
+    {
+      "id": "comp-n-022",
+      "name": "Español (Llanquihue) - Normal",
+      "description": "Queso - Choclo - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 22,
+      "active": true
+    },
+    {
+      "id": "comp-n-023",
+      "name": "Español (Carne) - Normal",
+      "description": "Queso - Choclo - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 4300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 23,
+      "active": true
+    },
+    {
+      "id": "comp-n-024",
+      "name": "Chaparrito (R. Abuelo) - Normal",
+      "description": "Palta - Queso - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3200,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 24,
+      "active": true
+    },
+    {
+      "id": "comp-n-025",
+      "name": "Chaparrito (Pacel) - Normal",
+      "description": "Palta - Queso - Mayonesa casera. Vienesa Pacel.",
+      "price": 3400,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 25,
+      "active": true
+    },
+    {
+      "id": "comp-n-026",
+      "name": "Chaparrito (Llanquihue) - Normal",
+      "description": "Palta - Queso - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 26,
+      "active": true
+    },
+    {
+      "id": "comp-n-027",
+      "name": "Chaparrito (Carne) - Normal",
+      "description": "Palta - Queso - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 4300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 27,
+      "active": true
+    },
+    {
+      "id": "comp-n-028",
+      "name": "Dinámico (R. Abuelo) - Normal",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3200,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 28,
+      "active": true
+    },
+    {
+      "id": "comp-n-029",
+      "name": "Dinámico (Pacel) - Normal",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Vienesa Pacel.",
+      "price": 3400,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 29,
+      "active": true
+    },
+    {
+      "id": "comp-n-030",
+      "name": "Dinámico (Llanquihue) - Normal",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 30,
+      "active": true
+    },
+    {
+      "id": "comp-n-031",
+      "name": "Dinámico (Carne) - Normal",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 4300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 31,
+      "active": true
+    },
+    {
+      "id": "comp-n-032",
+      "name": "Chacarero (R. Abuelo) - Normal",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3200,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 32,
+      "active": true
+    },
+    {
+      "id": "comp-n-033",
+      "name": "Chacarero (Pacel) - Normal",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Vienesa Pacel.",
+      "price": 3400,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 33,
+      "active": true
+    },
+    {
+      "id": "comp-n-034",
+      "name": "Chacarero (Llanquihue) - Normal",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3800,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 34,
+      "active": true
+    },
+    {
+      "id": "comp-n-035",
+      "name": "Chacarero (Carne) - Normal",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 4300,
+      "category": "completos-normal",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 35,
+      "active": true
+    },
+    {
+      "id": "comp-xl-036",
+      "name": "Hot Dog (R. Abuelo) - XL",
+      "description": "Vienesa - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "comp-xl-037",
+      "name": "Hot Dog (Pacel) - XL",
+      "description": "Vienesa - Mayonesa casera. Vienesa Pacel.",
+      "price": 3300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "comp-xl-038",
+      "name": "Hot Dog (Llanquihue) - XL",
+      "description": "Vienesa - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 3600,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "comp-xl-039",
+      "name": "Italiano (R. Abuelo) - XL",
+      "description": "Palta - Tomate - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "comp-xl-040",
+      "name": "Italiano (Pacel) - XL",
+      "description": "Palta - Tomate - Mayonesa casera. Vienesa Pacel.",
+      "price": 4000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 5,
+      "active": true
+    },
+    {
+      "id": "comp-xl-041",
+      "name": "Italiano (Llanquihue) - XL",
+      "description": "Palta - Tomate - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 4800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 6,
+      "active": true
+    },
+    {
+      "id": "comp-xl-042",
+      "name": "Italiano (Carne) - XL",
+      "description": "Palta - Tomate - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 7,
+      "active": true
+    },
+    {
+      "id": "comp-xl-043",
+      "name": "Alemán (R. Abuelo) - XL",
+      "description": "Chucrut - Tomate - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 8,
+      "active": true
+    },
+    {
+      "id": "comp-xl-044",
+      "name": "Alemán (Pacel) - XL",
+      "description": "Chucrut - Tomate - Mayonesa casera. Vienesa Pacel.",
+      "price": 4000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 9,
+      "active": true
+    },
+    {
+      "id": "comp-xl-045",
+      "name": "Alemán (Llanquihue) - XL",
+      "description": "Chucrut - Tomate - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 4800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 10,
+      "active": true
+    },
+    {
+      "id": "comp-xl-046",
+      "name": "Alemán (Carne) - XL",
+      "description": "Chucrut - Tomate - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 11,
+      "active": true
+    },
+    {
+      "id": "comp-xl-047",
+      "name": "Brasileño (R. Abuelo) - XL",
+      "description": "Palta - Choclo - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 12,
+      "active": true
+    },
+    {
+      "id": "comp-xl-048",
+      "name": "Brasileño (Pacel) - XL",
+      "description": "Palta - Choclo - Mayonesa casera. Vienesa Pacel.",
+      "price": 4000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 13,
+      "active": true
+    },
+    {
+      "id": "comp-xl-049",
+      "name": "Brasileño (Llanquihue) - XL",
+      "description": "Palta - Choclo - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 4800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 14,
+      "active": true
+    },
+    {
+      "id": "comp-xl-050",
+      "name": "Brasileño (Carne) - XL",
+      "description": "Palta - Choclo - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 15,
+      "active": true
+    },
+    {
+      "id": "comp-xl-051",
+      "name": "Barros Luco (R. Abuelo) - XL",
+      "description": "Base - Queso fundido - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 3800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 16,
+      "active": true
+    },
+    {
+      "id": "comp-xl-052",
+      "name": "Barros Luco (Pacel) - XL",
+      "description": "Base - Queso fundido - Mayonesa casera. Vienesa Pacel.",
+      "price": 4000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 17,
+      "active": true
+    },
+    {
+      "id": "comp-xl-053",
+      "name": "Barros Luco (Llanquihue) - XL",
+      "description": "Base - Queso fundido - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 4800,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 18,
+      "active": true
+    },
+    {
+      "id": "comp-xl-054",
+      "name": "Barros Luco (Carne) - XL",
+      "description": "Base - Queso fundido - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6000,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 19,
+      "active": true
+    },
+    {
+      "id": "comp-xl-055",
+      "name": "Español (R. Abuelo) - XL",
+      "description": "Queso - Choclo - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 4300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 20,
+      "active": true
+    },
+    {
+      "id": "comp-xl-056",
+      "name": "Español (Pacel) - XL",
+      "description": "Queso - Choclo - Mayonesa casera. Vienesa Pacel.",
+      "price": 4500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 21,
+      "active": true
+    },
+    {
+      "id": "comp-xl-057",
+      "name": "Español (Llanquihue) - XL",
+      "description": "Queso - Choclo - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 5300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 22,
+      "active": true
+    },
+    {
+      "id": "comp-xl-058",
+      "name": "Español (Carne) - XL",
+      "description": "Queso - Choclo - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 23,
+      "active": true
+    },
+    {
+      "id": "comp-xl-059",
+      "name": "Chaparrito (R. Abuelo) - XL",
+      "description": "Palta - Queso - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 4300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 24,
+      "active": true
+    },
+    {
+      "id": "comp-xl-060",
+      "name": "Chaparrito (Pacel) - XL",
+      "description": "Palta - Queso - Mayonesa casera. Vienesa Pacel.",
+      "price": 4500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 25,
+      "active": true
+    },
+    {
+      "id": "comp-xl-061",
+      "name": "Chaparrito (Llanquihue) - XL",
+      "description": "Palta - Queso - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 5300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 26,
+      "active": true
+    },
+    {
+      "id": "comp-xl-062",
+      "name": "Chaparrito (Carne) - XL",
+      "description": "Palta - Queso - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 27,
+      "active": true
+    },
+    {
+      "id": "comp-xl-063",
+      "name": "Dinámico (R. Abuelo) - XL",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 4300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 28,
+      "active": true
+    },
+    {
+      "id": "comp-xl-064",
+      "name": "Dinámico (Pacel) - XL",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Vienesa Pacel.",
+      "price": 4500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 29,
+      "active": true
+    },
+    {
+      "id": "comp-xl-065",
+      "name": "Dinámico (Llanquihue) - XL",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 5300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 30,
+      "active": true
+    },
+    {
+      "id": "comp-xl-066",
+      "name": "Dinámico (Carne) - XL",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 31,
+      "active": true
+    },
+    {
+      "id": "comp-xl-067",
+      "name": "Chacarero (R. Abuelo) - XL",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Vienesa Receta del Abuelo.",
+      "price": 4300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 32,
+      "active": true
+    },
+    {
+      "id": "comp-xl-068",
+      "name": "Chacarero (Pacel) - XL",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Vienesa Pacel.",
+      "price": 4500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 33,
+      "active": true
+    },
+    {
+      "id": "comp-xl-069",
+      "name": "Chacarero (Llanquihue) - XL",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Vienesa Cecinas Llanquihue.",
+      "price": 5300,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 34,
+      "active": true
+    },
+    {
+      "id": "comp-xl-070",
+      "name": "Chacarero (Carne) - XL",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada (elige tu carne).",
+      "price": 6500,
+      "category": "completos-xl",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 35,
+      "active": true
+    },
+    {
+      "id": "sand-el-071",
+      "name": "Sándwich Italiano",
+      "description": "Palta - Tomate - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6000,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "sand-el-072",
+      "name": "Sándwich Alemán",
+      "description": "Chucrut - Tomate - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6000,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "sand-el-073",
+      "name": "Sándwich Brasileño",
+      "description": "Palta - Choclo - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6000,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "sand-el-074",
+      "name": "Sándwich Barros Luco",
+      "description": "Base - Queso fundido - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6000,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "sand-el-075",
+      "name": "Sándwich Español",
+      "description": "Queso - Choclo - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6500,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 5,
+      "active": true
+    },
+    {
+      "id": "sand-el-076",
+      "name": "Sándwich Chaparrito",
+      "description": "Palta - Queso - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6500,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 6,
+      "active": true
+    },
+    {
+      "id": "sand-el-077",
+      "name": "Sándwich Dinámico",
+      "description": "Chucrut - Tomate - Palta - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6500,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 7,
+      "active": true
+    },
+    {
+      "id": "sand-el-078",
+      "name": "Sándwich Chacarero",
+      "description": "Poroto verde - Ají verde - Tomate - Mayonesa casera. Carne a elección: Lomito de Cerdo, Ave, Churrasco, Plateada o Mechada.",
+      "price": 6500,
+      "category": "sandwich-eleccion",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 8,
+      "active": true
+    },
+    {
+      "id": "sand-casa-079",
+      "name": "Sándwich Patrón",
+      "description": "Tocino Ahumado, Huevo Frito, Champiñón, Choclo, Mayonesa Casera. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "sandwich-casa",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "sand-casa-080",
+      "name": "Sándwich Campesino",
+      "description": "Tocino Ahumado, Huevo frito, Champiñón, Pepinillos en Rodajas, Mayonesa Casera. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "sandwich-casa",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "sand-casa-081",
+      "name": "Sándwich Americano",
+      "description": "Tocino Ahumado, Huevo frito, Pepinillos en Rodaja, Aceitunas, Mayonesa Casera. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "sandwich-casa",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "sand-casa-082",
+      "name": "Sándwich A lo Pobre",
+      "description": "Tocino Ahumado, Huevo frito, Cebolla Caramelizada, Aceitunas, Mayonesa Casera. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "sandwich-casa",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "sand-casa-083",
+      "name": "Sándwich Vegetariano",
+      "description": "5 vegetales a su elección (no incluye carnes). Incluye Papas Fritas Naturales.",
+      "price": 8000,
+      "category": "sandwich-casa",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [
+        {
+          "label": "Elige 5 vegetales",
+          "required": 5,
+          "options": [
+            {
+              "name": "Palta",
+              "price": 0
+            },
+            {
+              "name": "Tomate",
+              "price": 0
+            },
+            {
+              "name": "Choclo",
+              "price": 0
+            },
+            {
+              "name": "Chucrut",
+              "price": 0
+            },
+            {
+              "name": "Queso",
+              "price": 0
+            },
+            {
+              "name": "Aceituna",
+              "price": 0
+            },
+            {
+              "name": "Cebolla Caramelizada",
+              "price": 0
+            },
+            {
+              "name": "Huevo Cocido",
+              "price": 0
+            },
+            {
+              "name": "Huevo Revuelto",
+              "price": 0
+            },
+            {
+              "name": "Poroto Verde",
+              "price": 0
+            },
+            {
+              "name": "Pepinillo",
+              "price": 0
+            },
+            {
+              "name": "Huevo Frito",
+              "price": 0
+            },
+            {
+              "name": "Ají Verde",
+              "price": 0
+            },
+            {
+              "name": "Lechuga",
+              "price": 0
+            },
+            {
+              "name": "Pickle",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 5,
+      "active": true
+    },
+    {
+      "id": "hamb-084",
+      "name": "Hamburguesa Italiana",
+      "description": "Pan Brioche, Hamburguesa Casera de Vacuno, Queso Cheddar, Palta, Tomate, Cebolla Morada y Mayonesa. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "hamburguesas",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "hamb-085",
+      "name": "Hamburguesa Clásica",
+      "description": "Pan Brioche, Hamburguesa Casera de Vacuno, Queso Cheddar, Lechuga, Tomate, Cebolla Morada y Mayonesa. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "hamburguesas",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "hamb-086",
+      "name": "Hamburguesa De la Casa",
+      "description": "Pan Brioche, Hamburguesa Casera de Vacuno, Queso Cheddar, Champiñones, Huevo Frito, Tocino Ahumado, Salsa Barbecue y Mayonesa. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "hamburguesas",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "hamb-087",
+      "name": "Hamburguesa Americana",
+      "description": "Pan Brioche, Hamburguesa Casera de Vacuno, Queso Cheddar, Cebolla Caramelizada, Pepinillo, Tocino Ahumado, Salsa Barbecue y Mayonesa. Incluye Papas Fritas Naturales.",
+      "price": 8500,
+      "category": "hamburguesas",
+      "image": null,
+      "allowsExtras": true,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "papa-crema-088",
+      "name": "Papas a la Crema - Porción 1-2 personas",
+      "description": "Base de Papas Fritas Naturales con Pollo, Choclo, Champiñones envueltos en Salsa Blanca con Queso Fundido y un toque de Ciboulette.",
+      "price": 9000,
+      "category": "papas-crema",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "papa-crema-089",
+      "name": "Papas a la Crema - Porción 2-3 personas",
+      "description": "Base de Papas Fritas Naturales con Pollo, Choclo, Champiñones envueltos en Salsa Blanca con Queso Fundido y un toque de Ciboulette.",
+      "price": 14000,
+      "category": "papas-crema",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "papa-crema-090",
+      "name": "Papas a la Crema - Porción 3-4 personas",
+      "description": "Base de Papas Fritas Naturales con Pollo, Choclo, Champiñones envueltos en Salsa Blanca con Queso Fundido y un toque de Ciboulette.",
+      "price": 20000,
+      "category": "papas-crema",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "papa-crema-091",
+      "name": "Papas a la Crema - Porción 4-5 personas",
+      "description": "Base de Papas Fritas Naturales con Pollo, Choclo, Champiñones envueltos en Salsa Blanca con Queso Fundido y un toque de Ciboulette.",
+      "price": 25000,
+      "category": "papas-crema",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "papa-ched-092",
+      "name": "Papas Cheddar - Porción 1-2 personas",
+      "description": "Base de Papas Fritas Naturales con Carne, Cebolla Caramelizada, envuelta en Salsa de Queso Cheddar con Tocino Ahumado y un toque de Ciboulette.",
+      "price": 9000,
+      "category": "papas-cheddar",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "papa-ched-093",
+      "name": "Papas Cheddar - Porción 2-3 personas",
+      "description": "Base de Papas Fritas Naturales con Carne, Cebolla Caramelizada, envuelta en Salsa de Queso Cheddar con Tocino Ahumado y un toque de Ciboulette.",
+      "price": 14000,
+      "category": "papas-cheddar",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "papa-ched-094",
+      "name": "Papas Cheddar - Porción 3-4 personas",
+      "description": "Base de Papas Fritas Naturales con Carne, Cebolla Caramelizada, envuelta en Salsa de Queso Cheddar con Tocino Ahumado y un toque de Ciboulette.",
+      "price": 20000,
+      "category": "papas-cheddar",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "papa-ched-095",
+      "name": "Papas Cheddar - Porción 4-5 personas",
+      "description": "Base de Papas Fritas Naturales con Carne, Cebolla Caramelizada, envuelta en Salsa de Queso Cheddar con Tocino Ahumado y un toque de Ciboulette.",
+      "price": 25000,
+      "category": "papas-cheddar",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "papa-simple-096",
+      "name": "Papas Fritas Naturales - Papa Express - Porción Pequeña",
+      "description": "Papas fritas naturales. Incluye Mayonesa Casera.",
+      "price": 2000,
+      "category": "papas-simples",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "papa-simple-097",
+      "name": "Papas Fritas Naturales - Porción 1 persona",
+      "description": "Papas fritas naturales. Incluye Mayonesa Casera.",
+      "price": 4000,
+      "category": "papas-simples",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "papa-simple-098",
+      "name": "Papas Fritas Naturales - Porción 2-3 personas",
+      "description": "Papas fritas naturales. Incluye Mayonesa Casera.",
+      "price": 5500,
+      "category": "papas-simples",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "papa-mech-099",
+      "name": "Papas Naturales Mechadas - Porción 1 persona",
+      "description": "Papas naturales mechadas. Incluye Mayonesa Casera.",
+      "price": 6000,
+      "category": "papas-mechadas",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "papa-mech-100",
+      "name": "Papas Naturales Mechadas - Porción 2-3 personas",
+      "description": "Papas naturales mechadas. Incluye Mayonesa Casera.",
+      "price": 10000,
+      "category": "papas-mechadas",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "salchi-101",
+      "name": "Salchipapas - Porción 1 persona",
+      "description": "Papas fritas naturales, vienesa y mayonesa casera.",
+      "price": 4500,
+      "category": "salchipapas",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "salchi-102",
+      "name": "Salchipapas - Porción 2-3 personas",
+      "description": "Papas fritas naturales, vienesa y mayonesa casera.",
+      "price": 6500,
+      "category": "salchipapas",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "salchi-103",
+      "name": "Salchipapas - Porción 3-4 personas",
+      "description": "Papas fritas naturales, vienesa y mayonesa casera.",
+      "price": 11000,
+      "category": "salchipapas",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "pichanga-104",
+      "name": "Pichanga - Porción 1 persona",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Pickle, Aceitunas, Palta, Tomate, Queso, Huevo Cocido, Mayonesa Casera.",
+      "price": 8000,
+      "category": "pichanga",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "pichanga-105",
+      "name": "Pichanga - Porción 2-3 personas",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Pickle, Aceitunas, Palta, Tomate, Queso, Huevo Cocido, Mayonesa Casera.",
+      "price": 14000,
+      "category": "pichanga",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "pichanga-106",
+      "name": "Pichanga - Porción 3-4 personas",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Pickle, Aceitunas, Palta, Tomate, Queso, Huevo Cocido, Mayonesa Casera.",
+      "price": 20000,
+      "category": "pichanga",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "pichanga-107",
+      "name": "Pichanga - Porción 4-5 personas",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Pickle, Aceitunas, Palta, Tomate, Queso, Huevo Cocido, Mayonesa Casera.",
+      "price": 24000,
+      "category": "pichanga",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "chorri-108",
+      "name": "Chorrillana - Porción 1 persona",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Cebolla Caramelizada, Huevo Frito, Mayonesa Casera.",
+      "price": 8000,
+      "category": "chorrillana",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "chorri-109",
+      "name": "Chorrillana - Porción 2-3 personas",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Cebolla Caramelizada, Huevo Frito, Mayonesa Casera.",
+      "price": 14000,
+      "category": "chorrillana",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "chorri-110",
+      "name": "Chorrillana - Porción 3-4 personas",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Cebolla Caramelizada, Huevo Frito, Mayonesa Casera.",
+      "price": 20000,
+      "category": "chorrillana",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "chorri-111",
+      "name": "Chorrillana - Porción 4-5 personas",
+      "description": "Papas Fritas Naturales, Carne de Vacuno, Ave, Cerdo, Vienesa, Cebolla Caramelizada, Huevo Frito, Mayonesa Casera.",
+      "price": 24000,
+      "category": "chorrillana",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "beb-112",
+      "name": "Té",
+      "description": "",
+      "price": 800,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "beb-113",
+      "name": "Café",
+      "description": "",
+      "price": 800,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "beb-114",
+      "name": "Milo",
+      "description": "",
+      "price": 1200,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "beb-115",
+      "name": "Bebida en Lata",
+      "description": "",
+      "price": 1500,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "beb-116",
+      "name": "Bebida en Botella",
+      "description": "",
+      "price": 2000,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 5,
+      "active": true
+    },
+    {
+      "id": "beb-117",
+      "name": "Red Bull",
+      "description": "",
+      "price": 2500,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 6,
+      "active": true
+    },
+    {
+      "id": "beb-118",
+      "name": "Monster",
+      "description": "",
+      "price": 2500,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 7,
+      "active": true
+    },
+    {
+      "id": "beb-119",
+      "name": "Jugo en Botella",
+      "description": "",
+      "price": 1500,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 8,
+      "active": true
+    },
+    {
+      "id": "beb-120",
+      "name": "Agua Mineral Gas.",
+      "description": "",
+      "price": 1000,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 9,
+      "active": true
+    },
+    {
+      "id": "beb-121",
+      "name": "Agua Mineral Des.",
+      "description": "",
+      "price": 1000,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 10,
+      "active": true
+    },
+    {
+      "id": "beb-122",
+      "name": "Agua con Sabor",
+      "description": "",
+      "price": 2000,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 11,
+      "active": true
+    },
+    {
+      "id": "beb-123",
+      "name": "Score",
+      "description": "",
+      "price": 2000,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 12,
+      "active": true
+    },
+    {
+      "id": "beb-124",
+      "name": "Gatorade",
+      "description": "",
+      "price": 2000,
+      "category": "bebestibles",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [],
+      "sortOrder": 13,
+      "active": true
+    },
+    {
+      "id": "promo-125",
+      "name": "Promo Sándwich x2",
+      "description": "2 Sándwich (Italiano, Alemán, Brasileño o Barros Luco) + 2 Bebestibles (bebida en lata, té, café o milo).",
+      "price": 13000,
+      "category": "promociones",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [
+        {
+          "label": "Elige tu sándwich",
+          "required": 1,
+          "options": [
+            {
+              "name": "Italiano",
+              "price": 0
+            },
+            {
+              "name": "Alemán",
+              "price": 0
+            },
+            {
+              "name": "Brasileño",
+              "price": 0
+            },
+            {
+              "name": "Barros Luco",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "label": "Elige tu bebestible",
+          "required": 1,
+          "options": [
+            {
+              "name": "Bebida en Lata",
+              "price": 0
+            },
+            {
+              "name": "Té",
+              "price": 0
+            },
+            {
+              "name": "Café",
+              "price": 0
+            },
+            {
+              "name": "Milo",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "promo-126",
+      "name": "Promo Completo XL Carne",
+      "description": "2 Completos XL Carne a Elección (Italiano, Alemán, Brasileño o Barros Luco, se puede combinar sabores) + 2 Bebestibles.",
+      "price": 13000,
+      "category": "promociones",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [
+        {
+          "label": "Elige tu completo",
+          "required": 1,
+          "options": [
+            {
+              "name": "Italiano",
+              "price": 0
+            },
+            {
+              "name": "Alemán",
+              "price": 0
+            },
+            {
+              "name": "Brasileño",
+              "price": 0
+            },
+            {
+              "name": "Barros Luco",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada Ahumada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "label": "Elige tu bebestible",
+          "required": 1,
+          "options": [
+            {
+              "name": "Bebida en Lata",
+              "price": 0
+            },
+            {
+              "name": "Té",
+              "price": 0
+            },
+            {
+              "name": "Café",
+              "price": 0
+            },
+            {
+              "name": "Milo",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "promo-127",
+      "name": "Promo Papas Naturales + Bebestible",
+      "description": "Papa carne (1 carne a elección: Lomito de Cerdo, Ave, Plateada Ahumada o Mechada) + 1 Bebestible.",
+      "price": 6500,
+      "category": "promociones",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [
+        {
+          "label": "Elige tu carne",
+          "required": 1,
+          "options": [
+            {
+              "name": "Lomito de Cerdo",
+              "price": 0
+            },
+            {
+              "name": "Ave",
+              "price": 0
+            },
+            {
+              "name": "Churrasco",
+              "price": 0
+            },
+            {
+              "name": "Plateada Ahumada",
+              "price": 0
+            },
+            {
+              "name": "Mechada",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "label": "Elige tu bebestible",
+          "required": 1,
+          "options": [
+            {
+              "name": "Bebida en Lata",
+              "price": 0
+            },
+            {
+              "name": "Té",
+              "price": 0
+            },
+            {
+              "name": "Café",
+              "price": 0
+            },
+            {
+              "name": "Milo",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "promo-128",
+      "name": "Promo Completo XL Vienesa Receta del Abuelo",
+      "description": "1 Completo XL (Italiano, Alemán, Brasileño o Barros Luco) + 1 Bebestible.",
+      "price": 5000,
+      "category": "promociones",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [
+        {
+          "label": "Elige tu completo",
+          "required": 1,
+          "options": [
+            {
+              "name": "Italiano",
+              "price": 0
+            },
+            {
+              "name": "Alemán",
+              "price": 0
+            },
+            {
+              "name": "Brasileño",
+              "price": 0
+            },
+            {
+              "name": "Barros Luco",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "label": "Elige tu bebestible",
+          "required": 1,
+          "options": [
+            {
+              "name": "Bebida en Lata",
+              "price": 0
+            },
+            {
+              "name": "Té",
+              "price": 0
+            },
+            {
+              "name": "Café",
+              "price": 0
+            },
+            {
+              "name": "Milo",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 4,
+      "active": true
+    },
+    {
+      "id": "promo-129",
+      "name": "Promo Completo XL Vienesa Llanquihue",
+      "description": "1 Completo XL (Italiano, Alemán, Brasileño o Barros Luco) + 1 Bebestible.",
+      "price": 6000,
+      "category": "promociones",
+      "image": null,
+      "allowsExtras": false,
+      "modifierGroups": [
+        {
+          "label": "Elige tu completo",
+          "required": 1,
+          "options": [
+            {
+              "name": "Italiano",
+              "price": 0
+            },
+            {
+              "name": "Alemán",
+              "price": 0
+            },
+            {
+              "name": "Brasileño",
+              "price": 0
+            },
+            {
+              "name": "Barros Luco",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "label": "Elige tu bebestible",
+          "required": 1,
+          "options": [
+            {
+              "name": "Bebida en Lata",
+              "price": 0
+            },
+            {
+              "name": "Té",
+              "price": 0
+            },
+            {
+              "name": "Café",
+              "price": 0
+            },
+            {
+              "name": "Milo",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "sortOrder": 5,
+      "active": true
+    }
+  ]
+}
